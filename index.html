@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#161b18">
+  <meta name="description" content="Dictation — локальная диктовка для Windows. Нажмите клавишу, произнесите текст и вставьте его в своё приложение.">
+  <title>Dictation — текст начинается с голоса</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <header><a class="brand" href="./" aria-label="Dictation — главная"><span class="mark" aria-hidden="true">d.</span> Dictation</a><span class="edition">WINDOWS / VERSION 1.0</span></header>
+    <main>
+      <section class="hero" aria-labelledby="title">
+        <div class="intro">
+          <p class="eyebrow"><span></span> ГОЛОС → ТЕКСТ · ЛОКАЛЬНО</p>
+          <h1 id="title">Мысли вслух.<br><em>Текст на экране.</em></h1>
+          <p class="lead">Диктуйте заметки, сообщения и длинные мысли. Dictation распознает речь на вашем компьютере и поможет перенести текст в нужное окно.</p>
+          <a class="download" href="https://github.com/nikteslaq-debug/Dictation/releases/download/v1.0/Dictation-1.0-Windows-x64.zip"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></svg><span>Скачать Dictation для Windows</span></a>
+          <p class="download-note">Версия 1.0 · ZIP, 4,83 МБ · Windows x64</p>
+          <p class="requirement">Требуется .NET Framework 4.8 или новее.</p>
+        </div>
+        <figure class="product">
+          <div class="screen"><img src="dictation.png" alt="Окно Dictation 1.0 с выбором движка распознавания, текстовым полем и кнопками записи и копирования" width="332" height="337"></div>
+          <figcaption><span class="status-dot"></span> Небольшое окно. Место для больших мыслей.</figcaption>
+        </figure>
+      </section>
+      <section class="features" aria-label="Возможности">
+        <article><span class="number">01 / УПРАВЛЕНИЕ</span><h2>Одна клавиша для речи</h2><p>Назначьте удобную клавишу или сочетание. Удерживайте её во время диктовки или нажимайте повторно для начала и завершения записи.</p></article>
+        <article><span class="number">02 / РАСПОЗНАВАНИЕ</span><h2>Обработка на компьютере</h2><p>Vosk для русской речи и Whisper для разных языков. Режим LIVE показывает предварительный текст, пока вы говорите.</p></article>
+        <article><span class="number">03 / РЕЗУЛЬТАТ</span><h2>Текст там, где нужен</h2><p>Запускайте диктовку клавишей для автовставки в активное окно. Результат также можно скопировать или распознать повторно.</p></article>
+      </section>
+      <section class="start" aria-labelledby="start-title">
+        <div><p class="eyebrow">ПЕРВЫЙ ЗАПУСК</p><h2 id="start-title">Распакуйте.<br>Запустите. Говорите.</h2></div>
+        <div class="steps">
+          <p>Распакуйте ZIP целиком в папку, в которую можно записывать файлы, и откройте <strong>Dictation.exe</strong>. Выберите микрофон и движок распознавания.</p>
+          <p>При первом выборе движка программа загрузит его библиотеки и модель. Для Whisper модель занимает около <strong>548 МиБ</strong>, дополнительно понадобятся библиотеки. Дождитесь завершения загрузки.</p>
+          <p>После загрузки распознавание работает локально. В настройках назначьте клавишу диктовки или начните запись кнопкой <strong>REC</strong>.</p>
+        </div>
+      </section>
+    </main>
+    <footer><span>Dictation <span class="by">by Niktesla’s Den</span></span><span>Говорите в своём темпе.</span></footer>
+  </div>
+</body>
+</html>
